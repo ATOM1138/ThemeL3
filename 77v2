@@ -1,208 +1,50 @@
 {
-    "name": "Cyberpunk HUD by atom",
-    "description": "Theme built around Cyberpunk 2077 HUD",
-    "authors": [
-      {
-        "name": "Alt",
-        "id": "728624926797594646"
-      }
-    ],
-    "semanticColors": {
-      "BACKGROUND_ACCENT": [
-      "#ff003c"
-      ],
-      "BACKGROUND_MESSAGE_HOVER": [
-      "#000000"
-      ],
-      "BACKGROUND_MOBILE_PRIMARY": [
-      "#000000"
-      ],
-      "BACKGROUND_MOBILE_SECONDARY": [
-      "#000000"
-      ],
-      "BACKGROUND_MODIFIER_ACCENT": [
-      "#000000"
-      ],
-      "BACKGROUND_MODIFIER_ACTIVE": [
-      "#170005"
-      ],
-      "BACKGROUND_MODIFIER_HOVER": [
-      "#170005"
-      ],
-      "BACKGROUND_MODIFIER_SELECTED": [
-      "#000000"
-      ],
-      "BACKGROUND_PRIMARY": [
-      "#000000"
-      ],
-      "BACKGROUND_SECONDARY": [
-      "#000000"
-      ],
-      "BACKGROUND_SECONDARY_ALT": [
-      "#000000"
-      ],
-      "BACKGROUND_TERTIARY": [
-      "#000000"
-      ],
-      "BORDER_FAINT": [
-      "#ff003c"
-      ],
-      "BORDER_STRONG": [
-      "#ff003c"
-      ],      
-      "BORDER_SUBTLE": [
-      "#ff003c"
-      ],
-      "CHANNEL_ICON": [
-      "#ff003c"
-      ],
-      "CHANNELS_DEFAULT": [
-      "#72eaf8"
-      ],
-      "CHAT_BACKGROUND": [
-      "#000000"
-      ],
-      "HEADER_PRIMARY": [
-      "#72eaf8"
-      ],
-      "HEADER_SECONDARY": [
-      "#72eaf8"
-      ],
-      "HOME_BACKGROUND": [
-      "#000000"
-      ],
-      "INTERACTIVE_ACTIVE": [
-      "#f3e600"
-      ],
-      "INTERACTIVE_HOVER": [
-      "#72eaf8"
-      ],
-      "INTERACTIVE_MUTED": [
-      "#6e6a86"
-      ],
-      "INTERACTIVE_NORMAL": [
-      "#7e5f5f"
-      ],
-      "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
-      "#000000"
-      ],
-      "SPOILER_HIDDEN_BACKGROUND": [
-      "#120707"
-      ],
-      "TEXT_DANGER": [
-      "#ff003c"
-      ],
-      "TEXT_LINK": [
-      "#f3e600"
-      ],
-      "TEXT_MUTED": [
-      "#ff003c"
-      ],
-      "TEXT_NORMAL": [
-      "#c7c7c7"
-      ],
-      "TEXT_SECONDARY": [
-      "#c7c7c7"
-      ],
-      "CARD_PRIMARY_BG": [
-      "#000000"
-      ],
-      "CARD_SECONDARY_BG": [
-      "#000000"
-      ]
-    },
-    "rawColors": {
-      "BRAND_260": "#f3e600",
-      "BRAND_360": "#ff003c",
-      "BRAND_500": "#f3e600",
-      "GREEN_100": "#72eaf8",
-      "GREEN_130": "#f3e600",
-      "GREEN_160": "#f3e600",
-      "GREEN_200": "#f3e600",
-      "GREEN_230": "#f3e600",
-      "GREEN_260": "#f3e600",
-      "GREEN_300": "#f3e600",
-      "GREEN_330": "#f3e600",
-      "GREEN_345": "#f3e600",
-      "GREEN_360": "#f3e600",
-      "GREEN_400": "#f3e600",
-      "GREEN_430": "#f3e600",
-      "GREEN_460": "#f3e600",
-      "GREEN_500": "#f3e600",
-      "GREEN_530": "#f3e600",
-      "GREEN_560": "#f3e600",
-      "GREEN_600": "#f3e600",
-      "GREEN_630": "#f3e600",
-      "GREEN_660": "#f3e600",
-      "GREEN_700": "#f3e600",
-      "GREEN_730": "#f3e600",
-      "GREEN_760": "#f3e600",
-      "GREEN_800": "#f3e600",
-      "GREEN_830": "#f3e600",
-      "GREEN_860": "#f3e600",
-      "GREEN_900": "#f3e600",
-      "GUILD_BOOSTING_PINK": "#ff003c",   
-      "GUILD_BOOSTING_PURPLE": "#ff003c",
-      "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#ff003c",
-      "PRIMARY_100": "#610017",
-      "PRIMARY_230": "#ff003c",
-      "PRIMARY_300": "#72eaf8",
-      "PRIMARY_360": "#72eaf8",    
-      "PRIMARY_400": "#72eaf8",
-      "PRIMARY_460": "#000000",
-      "PRIMARY_500": "#ff003c",
-      "PRIMARY_600": "#000000",
-      "PRIMARY_630": "#000000",
-      "PRIMARY_660": "#000000",
-      "PRIMARY_700": "#000000",
-      "PRIMARY_800": "#000000",
-      "RED_260": "#f3e600",
-      "RED_300": "#f3e600",
-      "RED_330": "#f3e600",
-      "RED_345": "#f3e600",
-      "RED_360": "#f3e600",
-      "RED_400": "#f3e600",
-      "RED_430": "#f3e600",
-      "RED_460": "#f3e600",
-      "RED_500": "#f3e600",
-      "RED_530": "#f3e600",
-      "RED_560": "#f3e600",
-      "RED_600": "#f3e600",
-      "RED_630": "#f3e600",
-      "RED_660": "#f3e600",
-      "RED_700": "#f3e600",
-      "YELLOW_100": "#ff003c",
-      "YELLOW_130": "#ff003c",
-      "YELLOW_160": "#ff003c",
-      "YELLOW_200": "#ff003c",
-      "YELLOW_230": "#ff003c",
-      "YELLOW_260": "#ff003c",
-      "YELLOW_300": "#ff003c4d",
-      "YELLOW_330": "#ff003c",
-      "YELLOW_345": "#ff003c",
-      "YELLOW_360": "#ff003c",
-      "YELLOW_400": "#ff003c",
-      "YELLOW_430": "#ff003c",
-      "YELLOW_460": "#ff003c",
-      "YELLOW_500": "#ff003c",
-      "YELLOW_530": "#ff003c",
-      "YELLOW_560": "#ff003c",
-      "YELLOW_600": "#ff003c",
-      "YELLOW_630": "#ff003c",
-      "YELLOW_660": "#ff003c",
-      "YELLOW_700": "#ff003c",
-      "YELLOW_730": "#ff003c",
-      "YELLOW_760": "#ff003c",
-      "YELLOW_800": "#ff003c",
-      "YELLOW_830": "#ff003c",
-      "YELLOW_860": "#ff003c",
-      "YELLOW_900": "#ff003c",
-      "WHITE_500": "#c7c7c7"
-   },
-        "background": {
-        "blur": 0.1,
-        "url": "https://media.discordapp.net/attachments/1190456255374962720/1198393185429356735/image0.jpg?ex=65bebda0&is=65ac48a0&hm=21d2863a61492996a062a24e12073a65f2070a97b7ee3b7eb6564f5919c437bb&",
-        "alpha": 0
-    },
-    "spec": 2
+  "name": "xenoed UP",
+  "version": "11.0",
+  "description": " yippee",
+  "authors": [
+    {
+      "name": "xeno",
+      "id": "396721363202605066"
+    }
+  ],
+  "semanticColors": {
+    "INTERACTIVE_ACTIVE": ["#51DC6C"],
+    "INTERACTIVE_NORMAL": ["#22AA6A"],
+    "INTERACTIVE_MUTED": ["#368A59"],
+    "BACKGROUND_ACCENT": ["#51DC6C"],
+    "BACKGROUND_MENTIONED": ["#370F8060"],
+    "BACKGROUND_MESSAGE_HOVER": ["#7059B3"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#1A1A1A"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#141414"],
+    "BACKGROUND_PRIMARY": ["#121212"],
+    "BACKGROUND_SECONDARY": ["#141414"],
+    "BACKGROUND_SECONDARY_ALT": ["#0F0F0F"],
+    "BACKGROUND_MODIFIER_ACCENT": ["#22AA6A"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#370F8050"],
+    "BACKGROUND_MODIFIER_HOVER": ["#0D0D0D"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#377055"],
+    "BACKGROUND_TERTIARY": ["#0F0F0F"],
+    "CHANNEL_ICON": ["#51DC6C"],
+    "CHAT_BACKGROUND": ["#121212"],
+    "TEXT_DANGER": ["#A12829"],
+    "TEXT_NORMAL": ["#E9E9E9"],
+    "TEXT_LINK": ["#FFFE88"],
+  },
+  "rawColors": {
+    "BRAND_260": "#FAE6FA",
+    "BRAND_360": "#8A80FF",
+    "BRAND_560": "#4719C4",
+    "GREEN_360": "#6243FF",
+    "PRIMARY_230": "#8A80FF",
+    "PRIMARY_600": "#121212",
+    "PRIMARY_630": "#141414",
+    "PRIMARY_660": "#1F1F1F",
+    "PRIMARY_700": "#1A1A1A",
+    "PRIMARY_800": "#121212",
+    "RED_400": "#C70C4D",
+    "WHITE_500": "#ffffff",
+    "YELLOW_300": "#411299"
+  },
+  "spec": 2
 }
